@@ -1,0 +1,1 @@
+@layer starwind.layout{:where(sw-split){gap:var(--sw-split-gap,var(--sw-gap,var(--sw-space-s-m,1rem)));flex-wrap:wrap;display:flex}:where(sw-split)>:where(*){flex:1 1 var(--sw-split-min,20rem);min-inline-size:0}:where(sw-split[reversed]){flex-direction:row-reverse}}
